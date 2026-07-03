@@ -17,7 +17,7 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet-draw/dist/leaflet.draw.css';
 import './styles.css';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
+const API_URL = import.meta.env.VITE_API_URL || '/api';
 const DEFAULT_CENTER = [10.5276, 76.2711];
 
 delete L.Icon.Default.prototype._getIconUrl;
